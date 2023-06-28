@@ -91,6 +91,13 @@ b = len(a)
 print(b)
 
 
+# 나 혼자 코딩!
+## 'You need python' 문장을 문자열로 만들고 길이를 구해 보자.
+str = "You need python"
+strLen = len(str)
+print(strLen)
+
+
 
 # 문자열 인덱싱과 슬라이싱
 
@@ -338,6 +345,14 @@ print(b)
 ### 예7 - f문자열에서 {}문자 표시
 a = f'{{ and }}'
 print(a)
+
+
+# 나 혼자 코딩!
+## format 함수 또는 f문자열 포매팅을 사용해 '!!!python!!!' 문자열을 출력해보자
+sen1 = "{0:!^12}".format('python')
+print(sen1)
+sen2 = f'{"python":!^12}'
+print(sen2)
 
 
 
